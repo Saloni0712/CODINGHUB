@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CodingHub</title>
+
+        <!--ICONSCOUT CDN-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+        <!-- GOOGLE FONTS (MONTSERRAT) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">  
+    </head>
+
+    <body>
+        <nav>
+            <div class="container nav__container">
+                <a href="index.html">
+                    <h4>CodingHub</h4>
+                </a>
+                <ul class="nav__menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            </div>
+        </nav>
+        <!--================================================ END OF THE NAVBAR ================================================-->
+
+        <section class="contact">
+            <div class="container contact__container">
+                <aside class="contact__aside">
+                    <div class="aside__image">
+                        <img src="./images/contact.svg">
+                    </div>
+                    <h2>Contact Us</h2>
+                    <p>
+                        Reach out to us easily through our Contact section for any inquiries, feedback, or support you may need.
+                    </p>
+                    <ul class="contact__details">
+                        <li>
+                            <i class="uil uil-phone-times"></i>
+                            <h5>+01 234 567 8910</h5>
+                        </li>
+                        <li>
+                            <i class="uil uil-envelope"></i>
+                            <h5>help@codinghub.com</h5>
+                        </li>
+                        <li>
+                            <i class="uil uil-location-point"></i>
+                            <h5>NYC, USA</h5>
+                        </li>
+                    </ul>
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-linkedin-alt"></i></a>
+                        </li>
+                    </ul>
+                </aside>
+
+                <form class="contact__form" id="contact__form">
+                    <div class="form__name">
+                        <input type="text" name="First Name" placeholder="First Name" id="fname" required style="color: black;">
+                        <input type="text" name="Last Name" placeholder="Last Name" id="lname" required style="color: black;">
+                    </div>
+                    <input type="email" name="Email Address" placeholder="Your Email Address" id="email" required style="color: black;">
+                    <textarea name="Message" rows="7" placeholder="Message..." id="mssg" required style="color: black;"></textarea>
+                    <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="index.html" class="footer__logo">
+                        <h4 style="color: black;">CodingHub</h4>
+                    </a>
+                    <p>
+                        Unlock your coding potential with Coding Hub - where knowledge meets innovation.
+                    </p>
+                </div>
+
+                <div class="footer__2">
+                    <h4>Links</h4>
+                    <ul class="permalinks">
+                        <li><a href="index.html" style="color: black;">Home</a></li>
+                        <li><a href="about.html" style="color: black;">About</a></li>
+                        <li><a href="courses.html" style="color: black;">Courses</a></li>
+                        <li><a href="contact.html" style="color: black;">Contact</a></li>
+                        <li><a href="login.html" style="color: black;">Log in</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#" style="color: black;">Privacy Policy</a></li>
+                        <li><a href="#" style="color: black;">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p style="color: black;">+01 234 567 8910</p>
+                        <p style="color: black;">help@codinghub.com</p>
+                    </div>
+
+                    <ul class="footer__socials">
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" style="color: black;"><i class="uil uil-linkedin-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <small>Copyright &copy; CodingHub Software</small>
+            </div>
+        </footer>
+
+
+        <script src="./main.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+            import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
+             
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyBkRtOdEqxH-vNLfiiRZ2q_KewdsC0QvyU",
+                authDomain: "coding-hub07.firebaseapp.com",
+                databaseURL: "https://coding-hub07-default-rtdb.firebaseio.com",
+                projectId: "coding-hub07",
+                storageBucket: "coding-hub07.appspot.com",
+                messagingSenderId: "1092221672554",
+                appId: "1:1092221672554:web:c8634be8c52874e95b7e13"
+            };
+             
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+             
+            // Get a reference to the database service
+            const db = getDatabase(app);
+             
+            document.getElementById('contact__form').addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                try {
+                    await set(ref(db, 'visitors/' + Math.random().toString(36).slice(2, 7)), {
+                        fname: document.getElementById('fname').value,
+                        lname: document.getElementById('lname').value,
+                        email: document.getElementById('email').value,
+                        message: document.getElementById('mssg').value
+                    });
+                    
+                    alert('Your form is submitted successfully!');
+                    // Check if the form exists before resetting
+                    if (document.getElementById('contact__form')) {
+                        document.getElementById('contact__form').reset();
+                    }
+                } catch (error) {
+                    console.error("Error submitting form:", error);
+                }
+            });
+            </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingHub</title>
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="./css/style.css">  
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>CodingHub</h4>
+            </a>
+
+            <form id="search-form">
+                <div class="search__container">
+                    <input type="text" id="search-input" placeholder="Search course">
+                    <button type="submit" id="search-btn"><i class="uil uil-search"></i></button>
+                    <div id="search-results"></div>
+                </div>
+            </form>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+   
+     <!--================================================ END OF THE NAVBAR ================================================-->
+
+        </div>
+      </div>
+      
+      <div id="results">
+      </div>
+
+        <div class="container header__container">
+            <div class="header__left">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>Grow your skills to advance your career part</h1>
+                <p>
+                    Unlock your full potential and propel your career to new heights with <b>CodingHub.</b> Our diverse range of coding courses, coupled with a hands-on compiler, will empower you to grow your skills, enhance your expertise, and take confident strides towards professional success.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+         <!--================================================ END OF THE HEADER ================================================-->
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    Discover an extensive selection of coding courses tailored to your interests and skill level. From web development to data science, our platform offers comprehensive categories of courses, ensuring that you can delve into the programming field of your choice and acquire the knowledge and skills necessary to thrive in the digital world.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brackets-curly"></i></span>
+                    <h5>Programming</h5>
+                    <p>Empowers individuals to become creators rather than just consumers of technology</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-palette"></i></span>
+                    <h5>Graphic Desing</h5>
+                    <p>Found in industries, from advertising and marketing to product design and web development.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-usd-circle"></i></span>
+                    <h5>Finance</h5>
+                    <p>Finance knowledge is essential for managing personal finances, such as budgeting.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-desktop"></i></span>
+                    <h5>Web Dev</h5>
+                    <p>Highly in-demand skill, with businesses and organizations requiring websites.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-database"></i></span>
+                    <h5>Database Management</h5>
+                    <p>Important for organizations that need to manage large amounts of data efficiently.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-puzzle-piece"></i></span>
+                    <h5>Business</h5>
+                    <p>It provides a good understanding of basic economic principles.</p>
+                </article>
+            </div>
+        </div>
+    </section> 
+         <!--================================================ END OF THE CATEGORIES ================================================-->
+  
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/Python.png" style="height: 13rem;">
+                </div>
+                <div class="course__info">
+                    <h4>Python: Learn From Scratch</h4>
+                    <p>
+                        Python is a powerful, versatile, and easy-to-learn programming language that has become popular among beginners and experts alike because of its simplicity and flexibility.
+                    </p>
+                    <a href="basicpython.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/WebDev.png" style="height: 13rem;">
+                </div>
+                <div class="course__info">
+                    <h4>Website Development</h4>
+                    <p>
+                        Learning web development allows you to create responsive websites and applications, and unlocks a high-demand career path in technology with full of oppurtunities.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/graphicdesign.jpg" style="height: 13rem;">
+                </div>
+               <div class="course__info">
+                    <h4>Graphic Design</h4>
+                    <p>
+                        Learning graphic design allows you to create visually appealing designs, communicate ideas effectively, and provides oppurtunity to pursue a career in a creative industry.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+               </div>
+            </article>        
+        </div>
+    </section>
+
+         <!--================================================ END OF THE COURSES ================================================-->
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Why Should I Prefer This Site?</h4>
+                    <p>
+                        Our site offers a comprehensive selection of coding courses with an integrated compiler, providing hands-on learning opportunities and practical coding experience.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>How Do I Know The Right Courses For Me?</h4>
+                    <p>
+                        Our platform offers a personalized course recommendation system based on your coding interests, skill level, and learning goals, ensuring you find the courses that best suit your needs.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Can I Manage My Web Site Myself?</h4>
+                    <p>
+                        Yes, our platform provides a user-friendly interface that allows you to easily manage and update your website content without requiring advanced technical knowledge.
+                    </p>
+                </div>
+            </article>
+            
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Are Your Website Compatible With Search Engines?</h4>
+                    <p>
+                        Yes, our websites are designed with search engine optimization (SEO) best practices in mind, ensuring optimal visibility and ranking on popular search engines.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Are There Any Problems With Your Servers?</h4>
+                    <p>
+                        We continuously monitor and maintain our servers to ensure optimal performance and minimize downtime. In the rare event of any issues, our technical team promptly addresses and resolves them.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="uil uil-plus"></i>
+                </div>
+                <div class="question__answer">
+                    <h4>Can We Use Multiple Domain Names / Domains?</h4>
+                    <p>
+                        Yes, our platform supports the use of multiple domain names or domains, allowing you to have a versatile online presence with different web addresses
+
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+         <!--================================================ END OF THE FAQs ================================================-->
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar7.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Tanya Black</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        The course provided a hands-on learning experience and helped me build a media website from scratch. The practical assignments and interactive lessons were invaluable in enhancing my web development skills.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jane Doe</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        It exceeded my expectations. The instructors covered all the essential aspects, from UI/UX design principles to responsive layouts. I now feel confident in creating user-friendly and visually appealing websites.
+                    </p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar6.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Anne Rose</h5>
+                    <small>Fashion Designer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        As a fashion designer, I wanted to expand my skills in visual communication. The graphic design course on this platform provided me with the knowledge and tools to create captivating visuals for my brand. Highly recommended!
+                    </p>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Edem Quist</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        The finance courses offered on this website have been a game-changer for me. The instructors explained complex financial concepts in a simple and engaging manner. I now have a solid foundation in finance and feel prepared for my future career.
+                    </p>
+                </div>
+            </article>
+            
+        </div>
+         <div class="swiper-pagination"></div>
+    </section>
+
+    
+
+         <!--================================================ END OF THE TESTIMONIALS ================================================-->
+
+    <footer> 
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4 style="color: black;">CodingHub</h4>
+                </a>
+                <p>
+                    Unlock your coding potential with Coding Hub - where knowledge meets innovation.
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html" style="color: black;">Home</a></li>
+                    <li><a href="about.html" style="color: black;">About</a></li>
+                    <li><a href="courses.html" style="color: black;">Courses</a></li>
+                    <li><a href="contact.html" style="color: black;">Contact</a></li>
+                    <li><a href="login.html"  style="color: black;">Log in</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#" style="color: black;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: black;">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p style="color: black;">+01 234 567 8910</p>
+                    <p style="color: black;">help@codinghub.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                    <a href="#" style="color: black;"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                    <a href="#" style="color: black;"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                    <a href="#" style="color: black;"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                    <a href="#" style="color: black;"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; CodingHub Software</small>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to handle search functionality
+    document.getElementById('search-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Get the value entered by the user
+        const query = document.getElementById('search-input').value.toLowerCase().trim();
+
+        // Check the query and redirect accordingly
+        if (query === 'python') {
+            window.location.href = 'basicpython.html'; // Redirect to Python course page
+        } else if (query === 'web development') {
+            window.location.href = 'webdev.html'; // Redirect to Web Development course page
+        } else {
+            alert('Course not found!'); // Show an alert if no match is found
+        }
+    });
+    </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> <!-- SWIPER JS -->
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
